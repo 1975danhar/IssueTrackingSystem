@@ -1,0 +1,16 @@
+INSERT INTO ProcessLeader (firstName, lastName) VALUES ('Johnny', 'Rotten');
+INSERT INTO ProcessLeader (firstName, lastName) VALUES ('Bob', 'Marley');
+INSERT INTO ProcessLeader (firstName, lastName) VALUES ('Neil', 'Young');
+INSERT INTO ITStaff (firstName, lastName) VALUES ('Dave', 'Mustaine');
+INSERT INTO ITStaff (firstName, lastName) VALUES ('Ron', 'McGovney');
+INSERT INTO ITStaff (firstName, lastName) VALUES ('Lars', 'Ulrich');
+INSERT INTO Skill (skillName) VALUES ('Network');
+INSERT INTO Skill (skillName) VALUES ('C Programming');
+INSERT INTO Skill (skillName) VALUES ('Java');
+INSERT INTO Skill (skillName) VALUES ('JUnit');
+INSERT INTO Skill (skillName) VALUES ('C++');
+INSERT INTO Skill (skillName) VALUES ('C#');
+INSERT INTO Skill (skillName) VALUES ('Databases');
+INSERT INTO Skill (skillName) VALUES ('Design');
+INSERT INTO Skill (skillName) VALUES ('Python');
+INSERT INTO Cases (caseAlias, caseStatus, leaderId) VALUES ('Connect Server', 'Finished', 2);
